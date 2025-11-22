@@ -80,7 +80,7 @@ const config: SiteConfig = {
     "Gen‑Z defender‑attacker hybrid, focused on practical labs. I break things to understand them and then build guardrails so teams ship safely. Currently exploring offensive security techniques and defensive countermeasures through hands-on lab work.",
   avatar: "/avatar.jpg",
   socials: {
-    github: "https://github.com/ekjS7",
+    github: "https://github.com/QuocVinhTrinhLam",
     linkedin: "https://www.linkedin.com/in/trqvinh7/",
     tryhackme: "https://tryhackme.com/p/sjke",
   },
