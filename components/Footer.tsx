@@ -15,8 +15,8 @@ export default function Footer() {
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Brand */}
           <div className="space-y-4">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="flex items-center space-x-2 font-bold text-xl hover:text-neonGreen transition-colors w-fit group"
             >
               <span className="font-mono text-neonGreen group-hover:animate-neon-flicker">{'<'}</span>
@@ -56,7 +56,7 @@ export default function Footer() {
             <SocialLinks />
             <div className="pt-4">
               <p className="text-sm text-hackerGray/70 font-mono">
-                <a 
+                <a
                   href={`mailto:${config.email}`}
                   className="hover:text-neonGreen transition-colors"
                 >
@@ -68,12 +68,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4" 
-             style={{ borderTop: '1px solid rgba(57, 255, 20, 0.3)' }}>
+        <div className="mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
+          style={{ borderTop: '1px solid rgba(57, 255, 20, 0.3)' }}>
           <p className="text-sm text-hackerGray/70 flex items-center gap-1 font-mono">
-            <span className="text-neonGreen">&copy;</span> {currentYear} {config.name}. Made with
-            <Heart className="h-3 w-3 text-red-400 fill-current animate-pulse" />
-            using Next.js & TypeScript
+            <span className="text-neonGreen">&copy;</span> {currentYear} {config.name}
           </p>
           <div className="flex items-center gap-4 text-xs text-hackerGray/70 font-mono">
             <Link href="/privacy" className="hover:text-neonGreen transition-colors">

@@ -96,7 +96,7 @@ const config: SiteConfig = {
     ],
     blue: [
       "TShark",
-      "Friday Overtime", 
+      "Friday Overtime",
       "Summit",
       "Snort (Live Attack)",
       "Zeek",
@@ -125,7 +125,7 @@ const config: SiteConfig = {
     },
     {
       title: "El Bandito",
-      area: "Red", 
+      area: "Red",
       tags: ["web", "auth"],
       blurb: "Comprehensive web application security challenge focusing on authentication bypass, authorization flaws, and configuration mismanagement exploitation.",
       featured: true,
@@ -163,7 +163,7 @@ const config: SiteConfig = {
     },
     {
       title: "Summit",
-      area: "Blue", 
+      area: "Blue",
       tags: ["cloud", "security"],
       blurb: "Cloud security assessment and monitoring lab. Explored AWS security services, configured logging, and implemented detection mechanisms.",
     },
@@ -185,6 +185,18 @@ const config: SiteConfig = {
     },
   ],
   certifications: [
+    {
+      name: "Certified Threat Intelligence & Governance Analyst (CTIGA)",
+      issuer: "Red Team Leaders",
+      date: "2026",
+      link: "https://courses.redteamleaders.com/exam-completion/90b1c8efba3f4ae1",
+    },
+    {
+      name: "Ethical Hacker",
+      issuer: "Cisco",
+      date: "2026",
+      link: "https://www.credly.com/badges/fd68c246-94c6-420e-b0db-dc07d0d251a2/public_url",
+    },
     {
       name: "TryHackMe Path Completion",
       issuer: "TryHackMe",
@@ -212,7 +224,7 @@ const config: SiteConfig = {
     keywords: [
       "cybersecurity",
       "red team",
-      "blue team", 
+      "blue team",
       "penetration testing",
       "network security",
       "web security",
